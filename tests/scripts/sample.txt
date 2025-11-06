@@ -1,0 +1,6 @@
+allocate 200 P1
+allocate 300 P2
+deallocate P1
+allocate 100 P3
+allocate 400 P4
+deallocate P2

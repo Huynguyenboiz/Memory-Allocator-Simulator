@@ -1,0 +1,17 @@
+allocate 400 Producer1
+allocate 300 Producer2
+deallocate Producer1
+allocate 350 Producer3
+deallocate Producer2
+allocate 450 Producer4
+deallocate Producer3
+allocate 250 Consumer1
+deallocate Producer4
+allocate 380 Producer5
+deallocate Consumer1
+allocate 320 Producer6
+deallocate Producer5
+compact
+allocate 200 Consumer2
+deallocate Producer6
+allocate 280 Consumer3

@@ -1,0 +1,20 @@
+allocate 50 BrowserTab1
+allocate 400 VideoPlayer1
+allocate 150 EmailApp1
+allocate 600 Database1
+deallocate BrowserTab1
+allocate 80 BrowserTab2
+deallocate VideoPlayer1
+allocate 300 GameProcess1
+deallocate EmailApp1
+allocate 100 MusicPlayer1
+deallocate Database1
+allocate 250 ChatApp1
+deallocate GameProcess1
+allocate 350 Editor1
+deallocate MusicPlayer1
+allocate 120 BrowserTab3
+deallocate ChatApp1
+compact
+allocate 450 SystemUpdate1
+deallocate Editor1

@@ -1,0 +1,16 @@
+allocate 100 HTTP1
+allocate 150 HTTP2
+allocate 80 HTTP3
+allocate 200 HTTP4
+deallocate HTTP1
+allocate 120 HTTP5
+deallocate HTTP3
+allocate 90 HTTP6
+allocate 160 HTTP7
+deallocate HTTP2
+allocate 110 HTTP8
+deallocate HTTP4
+allocate 70 HTTP9
+deallocate HTTP5
+compact
+allocate 50 HTTP10
