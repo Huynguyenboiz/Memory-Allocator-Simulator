@@ -222,13 +222,9 @@ python plot_comparison.py
 ## 👤 Tác giả
 
 | Thông tin | Nội dung |
-
 |----------|---------|
-
 | Họ tên | *Nguyễn Cảnh Huy* |
-
 | MSSV | *HE204804* |
-
 | Email | *huynguyen2366@gmail.com* |
 
 ---
