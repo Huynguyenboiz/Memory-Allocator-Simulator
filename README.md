@@ -1,12 +1,13 @@
+
 # Memory Allocator Simulator
 
 **Ứng dụng mô phỏng cấp phát bộ nhớ** với **giao diện GUI trực quan**, hỗ trợ **4 thuật toán**, **chạy script tự động**, **xuất ảnh & thống kê**, **so sánh hiệu suất bằng biểu đồ**.
 
-> **Môn học**: Hệ điều hành  
-> **Lớp**: SE2039  
-> **Ngôn ngữ**: Python, Bash Shell
-> **GUI**: `tkinter` + `matplotlib` (Tcl/Tk 8.6)  
-> **Hệ điều hành**: Windows, Ubuntu, macOS
+> **Subject**: Operating System (OSG202)  
+> **Class**: SE2039  
+> **Language**: Python, Bash Shell
+> **Library**: `tkinter` + `matplotlib` + `pandas`(Tcl/Tk 8.6)  
+> **OS**: Windows, Ubuntu, macOS
 
 ---
 
@@ -74,33 +75,33 @@ flowchart TD
 | **4 thuật toán** | First Fit, Next Fit, Best Fit, Worst Fit |
 | **Status Bar** | Fragmentation % với **màu cảnh báo (xanh/cam/đỏ)** |
 | **Load Script** | Chạy file `.txt` tự động |
-| **Compact Animation** | Hiệu ứng trượt mượt khi nén bộ nhớ |
+| **Compact** | Thu gom bộ nhớ bị phân mảnh |
 | **Save Image / Stats** | Xuất PNG, PDF, CSV |
 | **So sánh hiệu suất** | `plot_comparison.py` vẽ biểu đồ cột |
 | **Test tự động** | `run_batch.sh` chạy tất cả script |
 
 ---
 
-## 📁 Cấu trúc thư mục
+## 📁 Cấu trúc dự án
 
 ```
 Memory_Allocator/
 ├── README.md
 ├── Requirements.txt
-├── plot_comparison.py        ← Vẽ biểu đồ so sánh
+├── plot_comparison.py        # Vẽ biểu đồ so sánh
 ├── requirements.txt
 ├── data/
-│   └── results/              ← [Tự tạo] PNG, CSV, stats.csv
+│   └── results/              # Kết quả xuất ra PNG, CSV, stats.csv
 ├── src/
-│   ├── algorithms.py         ← Triển khai 4 thuật toán
-│   ├── allocator.py          ← Core: quản lý bộ nhớ
-│   ├── gui.py                ← Giao diện chính (tkinter + matplotlib)
-│   ├── main.py               ← CLI entry (dùng cho batch test)
-│   ├── stats.py              ← Ghi thống kê vào CSV
-│   ├── utils.py              ← Đọc script, tính fragmentation
-│   └── visualizer.py         ← Hỗ trợ vẽ biểu đồ
+│   ├── algorithms.py         # Triển khai 4 thuật toán
+│   ├── allocator.py          # Core: quản lý bộ nhớ
+│   ├── gui.py                # Giao diện chính (tkinter + matplotlib)
+│   ├── main.py               # CLI entry (dùng cho batch test)
+│   ├── stats.py              # Ghi thống kê vào CSV
+│   ├── utils.py              # Đọc script, tính fragmentation
+│   └── visualizer.py         # Vẽ Memory Map
 ├── tests/
-│   ├── run_batch.sh          ← Chạy tất cả script test
+│   ├── run_batch.sh          # Chạy tất cả script test
 │   └── scripts/
 │       ├── compaction_test.txt
 │       ├── multitasking.txt
@@ -140,7 +141,7 @@ pip install -r requirements.txt
 python src\gui.py
 ```
 
-> `tkinter` đi kèm Python trên Windows → không cần cài thêm  
+> `tkinter` đã đi kèm Python trên Windows. 
 
 ---
 
@@ -171,7 +172,7 @@ python plot_comparison.py
 
 ### ✅ Cách 2: Dùng CLI
 ```bash
-python src/main.py --script tests/scripts/web_server.txt --algo best_fit
+python src/main.py --input tests/scripts/web_server.txt --algo best_fit
 ```
 
 ---
@@ -220,18 +221,22 @@ python plot_comparison.py
 
 ## 👤 Tác giả
 
-| Họ tên | MSSV |
+| Thông tin | Nội dung |
+
 |----------|---------|
-| Nguyễn Cảnh Huy | HE204804 |
-| Phan Bá Anh Kiệt | HE204649 |
-| Trịnh Minh Quân | HE204515 |
-| Lại Ngọc Huyền | HE204811 |
+
+| Họ tên | *Nguyễn Cảnh Huy* |
+
+| MSSV | *HE204804* |
+
+| Email | *huynguyen2366@gmail.com* |
 
 ---
 
 ## 📄 License
 
 MIT
+
 
 
 
