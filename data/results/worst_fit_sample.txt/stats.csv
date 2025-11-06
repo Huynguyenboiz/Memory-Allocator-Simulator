@@ -1,0 +1,2 @@
+total_free,total_allocated,fragmentation,algorithm,total_time_alloc,total_time_dealloc
+524,500,0.0,worst_fit,31.95 µs,9.30 µs
