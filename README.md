@@ -62,7 +62,7 @@ flowchart TD
 
 ## 🖼 GUI Preview
 
-![GUI Preview](data/results/gui_preview.png)
+![GUI Preview](img/gui_preview.png)
 
 ---
 
@@ -242,3 +242,4 @@ python plot_comparison.py
 ## 📄 License
 
 MIT
+
