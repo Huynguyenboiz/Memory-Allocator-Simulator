@@ -212,17 +212,6 @@ python plot_comparison.py
 
 ---
 
-## 🖥️ Giao diện GUI
-
-> (Ảnh demo)
-```
-<img src="data/results/gui_preview.png" alt="GUI Preview">
-```
-
-> (Tự động lưu khi nhấn "Save Image")
-
----
-
 ## ✅ Không sinh file `.pyc`
 - `pyproject.toml` → ngăn tạo `__pycache__`
 - `.gitignore` → không commit file rác
@@ -231,15 +220,17 @@ python plot_comparison.py
 
 ## 👤 Tác giả
 
-| Thông tin | Nội dung |
+| Họ tên | MSSV |
 |----------|---------|
-| Họ tên | *[Tên sinh viên]* |
-| MSSV | *[Mã số]* |
-| Email | *[email@edu.vn]* |
+| Nguyễn Cảnh Huy | HE204804 |
+| Phan Bá Anh Kiệt | HE204649 |
+| Trịnh Minh Quân | HE204515 |
+| Lại Ngọc Huyền | HE204811 |
 
 ---
 
 ## 📄 License
 
 MIT
+
 
