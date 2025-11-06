@@ -233,6 +233,8 @@ python plot_comparison.py
 
 MIT
 
+> **Version**: 1.0.1
+
 
 
 
