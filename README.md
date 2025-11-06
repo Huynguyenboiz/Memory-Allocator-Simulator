@@ -4,7 +4,7 @@
 
 > **Môn học**: Hệ điều hành  
 > **Lớp**: SE2039  
-> **Ngôn ngữ**: Python 3.8+  
+> **Ngôn ngữ**: Python, Bash Shell
 > **GUI**: `tkinter` + `matplotlib` (Tcl/Tk 8.6)  
 > **Hệ điều hành**: Windows, Ubuntu, macOS
 
@@ -232,5 +232,6 @@ python plot_comparison.py
 ## 📄 License
 
 MIT
+
 
 
