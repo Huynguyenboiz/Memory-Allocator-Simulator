@@ -5,7 +5,7 @@
 
 > **Subject**: Operating System (OSG202)  
 > **Class**: SE2039  
-> **Language**: Python, Bash Shell
+> **Language**: Python, Bash Shell  
 > **Library**: `tkinter` + `matplotlib` + `pandas`(Tcl/Tk 8.6)  
 > **OS**: Windows, Ubuntu, macOS
 
@@ -234,6 +234,7 @@ python plot_comparison.py
 MIT
 
 > **Version**: 1.0.1
+
 
 
 
